@@ -1,0 +1,504 @@
+/* TYPOGRAFI*/
+
+/* ALT */
+*{
+    padding: 0%;
+    margin: 0;
+}
+
+/*
+span{
+        position:absolute; 
+        width:100%;
+        height:100%;
+        top:0;
+        left: 0;
+      
+        z-index: -1;
+      
+        fixes overlap error in IE7/8, 
+        make sure you have an empty gif 
+        background-image: url('empty.gif');   
+}
+
+/* NAVBAR */
+
+nav {
+    float:right;
+}
+nav a.active {
+    color: white;
+    font-weight: bold;
+}
+  
+.logo img {
+    float:left;
+    padding-left: 50px;
+    padding-top: 10px;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display:flex;
+    float: left;
+}
+
+li a {
+    display: flex;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    padding-top: 30px;
+    padding-right: 80px;
+    text-decoration-style: double;
+    font-size: x-large;
+    font-weight: 700;
+}
+
+li a:hover {
+    color: white;
+    display: block; 
+}
+.container {
+    background-image: url(media/Multicam_arid.jpg);
+    clear:both;
+    overflow: auto;
+    height: 100px;
+    border-bottom: 3px black solid;
+} 
+.header {
+    border-bottom: 2px;
+    border-style: solid ;
+}
+
+#historie {
+    background-image: url(media/Multicam_black.jpg);
+}
+#forside {
+    display: flex;
+    justify-content: center;
+    background-image: url(media/Multicam_black.jpg);
+}
+
+/* artikel temps*/
+article {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 70%;
+    background-color: white;
+    border-radius: 5%;
+}
+#articlbck {
+    background-image: url(media/Multicam_black.jpg);
+}
+#artikel {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.artikelimg {
+    border: 1px solid black;
+    width: 600px;
+    height: 338px;
+}
+.artikeltekst {
+    text-align: justify;
+    margin-left: 20%;
+    margin-right: 20%;
+    line-height: 1.4;
+}
+.artikellist {
+    text-align: left;
+    
+    color: #000;
+}
+.artikeltekst img {
+    display: block;
+    margin: auto;
+}
+.artikeltekst div {
+    display: block;
+}
+.underskrift {
+    font-size: 14px;
+    color: #36454F	;
+    font-style: oblique;
+}
+
+.info {
+    background-color: #AB998B;
+    width: 300px;
+    height: auto;
+    margin-top: -30px;
+    border-radius: 5%;
+    border: 1px solid black;
+    
+
+}
+
+
+/* FOOTER */
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-image: url(media/Multicam_arid.jpg);
+    clear:both;
+    overflow: auto;
+    height: auto;
+    width: auto;
+    border-top: 3px black solid;
+    text-decoration: none;
+}
+.footerul {
+    display: flex;
+    flex-direction: column;
+}
+.footerlink {
+    color: black;
+    text-decoration: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: large;
+    font-size: medium;
+    font-weight: 300;
+}
+.footerlink:hover {
+    text-decoration: underline;
+    color: white;
+  }
+  
+.footerlink:active {
+    text-decoration: underline;
+    color: white;
+  }
+
+
+/* Forside */
+
+.bio {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.overskrift {
+    display: flex;
+    justify-content: center;
+    font-family: 'Anton', sans-serif;
+    text-decoration: underline;
+    background-color: #A39080;
+    border: black;
+    padding-top: 0;
+    margin-right: 36%;
+    margin-left: 36%;
+    
+}
+
+hr {
+    display: flex;
+    width: 30%;
+}
+
+.tidsbrev {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    background-color: #A59282;
+    border-color: #000;
+    border-style: solid;
+    border-width: 1px;
+    width: 50%;
+    
+
+}
+.forsideinfo {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.nyesteartikler {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    align-items: center;
+    background-color: #A59282;
+    border: #000;
+    border-style: solid;
+    border-width: 1px;
+
+    width: 50%;
+    
+
+}
+
+.forsidebag {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 70%;
+    background-color: white;
+    border-radius: 5%;
+}
+
+/* Artikel typer */
+
+.kontrastartikel {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: black;
+}
+.kontrastbillede {
+    display: flex;
+    width: 100%;  
+    height: 400px;
+    margin: 1px;  
+    background-color: #727266 ;
+}
+.kontrasttext {
+    display: flex;
+    width: 100%;
+    height: 400px;
+    margin: 1px;
+    background-image: url(media/Multicam_black.jpg) ;
+    color: white;
+}
+
+
+/* Artikel menu */
+.selection1 {
+    display: flex;
+    flex-direction: row;
+    height: 250px;
+    
+
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+}
+
+.selection2 {
+        display: flex;
+        flex-direction: row;
+        height: 250px;
+        
+    
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-top: 20px;
+        padding-bottom: 20px;
+}
+
+.textbox {
+    display: flex;
+    width: max-content;
+    background-color: #A39080;
+    border: 2px;
+    border-style: solid;
+    color: black;
+    border-radius: 10px;
+    font-weight: 900;
+    
+}
+
+.dato {
+    font-family: 'Times New Roman', Times, serif;
+
+    
+}
+
+
+
+/* HISTORIE */
+
+#h_artikel_1 {
+    flex-direction: column;
+    background-image: url(media/gævkrigerjpg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-right: 20px;
+    width: 20%;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 25px;
+    border: 2px;
+    border-style: solid;
+
+    display: flex;
+    overflow: hidden;
+}
+#h_artikel_1:hover {
+    border-radius: 10px;
+    background-image: url(media/gævgif.gif);
+}
+#h_artikel_1 img{
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%
+}
+.static {
+    position:absolute;
+    background: white;
+    min-width: 100%;
+    min-height: 100%;
+  }
+.static:hover {
+    opacity:0;
+  }
+
+
+
+#h_artikel_2 {
+    background-image: url(media/Multicam_arid.jpg); 
+    margin-right: 20px;
+    width: 40%;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 25px;
+    border: 2px;
+    border-style: solid;
+    transition: all 1s ease;
+}
+#h_artikel_2:hover {
+    background-image: url(media/multicam_arctic.jpg);
+    border-radius: 10px;
+    
+}
+
+#h_artikel_3 {
+    background-image: url(media/Multicam_arid.jpg);
+    width: 40%;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 25px;
+    border: 2px;
+    border-style: solid;
+    transition: all 1s ease;
+}
+
+
+#h_artikel_3:hover {
+    background-image: url(media/multicam_arctic.jpg);
+    border-radius: 10px;
+    
+}
+
+#gevær {
+    display: flex;
+    position: relative;
+    max-height: 230px;
+}
+
+#bayo {
+    display: flex;
+    justify-content: space-around;
+    position: relative; 
+    max-height: 100%;
+    padding-left: 50px;
+    
+}
+
+#h_artikel_4 {
+    display: flex;
+    overflow: hidden;
+    flex-direction: column;
+    background-image: url(media/Multicam_arid.jpg); 
+    margin-right: 20px;
+    width: 40%;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 25px;
+    border: 2px;
+    border-style: solid;
+    transition: all 1s ease;
+}
+#h_artikel_4:hover {
+    background-image: url(media/multicam_arctic.jpg);
+    border-radius: 10px;
+}
+
+#h_artikel_5 {
+    display: flex;
+    overflow: hidden;
+    flex-direction: column;
+    background-image: url(media/Multicam_arid.jpg); 
+    margin-right: 20px;
+    width: 40%;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 25px;
+    border: 2px;
+    border-style: solid;
+    transition: all 1s ease;
+}
+#h_artikel_5:hover {
+    background-image: url(media/multicam_arctic.jpg);
+    border-radius: 10px;
+}
+#fn {
+    width: 50%;
+    margin-left: 25%;
+    margin-top: -5%;
+}
+
+#h_artikel_6 {
+    flex-direction: column;
+    background-image: url(media/Multicam_arid.jpg);
+    background-size: auto;
+    background-repeat: no-repeat;
+    width: 20%;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 25px;
+    border: 2px;
+    border-style: solid;
+
+    display: flex;
+    overflow: hidden;
+    transition: all 1s ease;
+    
+}
+#branden{
+    margin-top: 5px ;
+    width: 50%;
+    margin-left: 25%;
+}
+#h_artikel_6:hover {
+    background-image: url(media/multicam_arctic.jpg);
+    border-radius: 10px;
+}
